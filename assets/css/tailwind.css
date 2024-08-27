@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Sansation";
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url("/fonts/sansation.woff") format("woff");
+}
+@font-face {
+  font-family: "Trebuchet";
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url("/fonts/trebuc.woff") format("woff");
+}
