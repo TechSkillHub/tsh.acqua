@@ -4,7 +4,6 @@
     <div>
       <NuxtPage />
     </div>
-    <Footer v-if="$route.path != '/'" />
   </NuxtLayout>
 </template>
 
@@ -31,12 +30,6 @@ useHead({
       tagPosition: 'head',
     }
   ]
-})
-
-onMounted(() => {
-    // useFlowbite(() => {
-    //     initFlowbite();
-    // })
 })
 
 </script>

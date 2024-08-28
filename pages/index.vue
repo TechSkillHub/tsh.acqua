@@ -11,11 +11,13 @@
             </span>
           </button>
         </NuxtLink>
-        <button class="rounded bg-white text-brand1 py-6 uppercase w-80 mx-3 hover:bg-brand1 hover:text-white transition duration-300 ease-in-out">
-          <span class="font-theme w-fit block mx-auto text-2xl">SAGRADO CORAÇÃO<br/>          
-            <span class="text-xs text-gray-600 capitalize font-sans text-right block">(Vila Formosa)</span>
-          </span>
-        </button>
+        <NuxtLink to="/sagrado-coracao">
+          <button class="rounded bg-white text-brand1 py-6 uppercase w-80 mx-3 hover:bg-brand1 hover:text-white transition duration-300 ease-in-out">
+            <span class="font-theme w-fit block mx-auto text-2xl">SAGRADO CORAÇÃO<br/>          
+              <span class="text-xs text-gray-600 capitalize font-sans text-right block">(Vila Formosa)</span>
+            </span>
+          </button>
+        </NuxtLink>
       </div>
     </div>
   </div>

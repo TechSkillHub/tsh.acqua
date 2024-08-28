@@ -12,11 +12,11 @@
         </p>
       </div>
       <div class="md:col-span-7 col-span-10 col-start-2 mx-auto">
-        <img src="@/assets/images/banner-mary.webp" alt="Academia Oficia Acqua Mery Ward" class="mx-auto">
+        <img :src="data.imageBanner" alt="Academia Oficia Acqua Mery Ward" class="mx-auto">
       </div>
     </div>
 
-    <div class="grid grid-cols-12 gap-8 md:gap-1 mt-12 text-center">
+    <!-- <div class="grid grid-cols-12 gap-8 md:gap-1 mt-12 text-center">
       <div class="md:col-span-4 col-span-10 col-start-2">
         <h2 class="text-2xl text-brand1 font-bold mb-4">Nosso Foco</h2>
         <p>Pessoas que desejam o corpo em forma através de exercícios físicos orientados e eficientes, na conquista de resultados para uma vida melhor.</p>
@@ -29,14 +29,15 @@
         <h2 class="text-2xl text-brand1 font-bold mb-4">Nossa Missão</h2>
         <p>Possibilitar aos associados, a conquista de melhorias na forma física, saúde e bem-estar, garantindo cordialidade e competência profissional, tecnologia e inovação, conforto e segurança.</p>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
-<script>
-export default {
-
-}
+<script setup>
+defineProps({
+  data: Object,
+  
+})
 </script>
 
 <style lang="scss">

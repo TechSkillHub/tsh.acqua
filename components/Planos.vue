@@ -2,22 +2,8 @@
   <div class="py-12 bg-[#E74F18] bg-opacity-15 pb-24">
     <div class="max-w-screen-xl mx-auto">
       <h1 class="text-brand1 text-3xl font-theme uppercase mb-8 text-center col-span-12">Nossos Planos</h1>
-
+      {{ data }}
       <div class="mb-4">
-        <!-- <div class="hidenn w-4/5 mx-auto">
-          <select
-            id="tabs-select"
-            class="bg-gray-50 border border-gray-500 text-gray-900 rounded-lg block w-full p-2.5 focus:outline-none focus:ring-0 focus:border-gray-500 appearance-none"
-            @change="test($event)"
-          >
-            <option
-              v-for="(item, index) in planosList" :key="index"
-              :value="item.id"
-            >
-              {{ item.titleDrop }}
-            </option>
-          </select>
-        </div> -->
         <ul 
           class="text-sm font-medium text-center text-gray-500 rounded-lg sm:flex w-11/12 mx-auto grid grid-cols-3 gap-2 md:gap-0" 
           id="default-tab" 
@@ -27,7 +13,7 @@
           role="tablist" 
         >
           <li
-            v-for="(item, index) in planosList" :key="index"
+            v-for="(item, index) in data" :key="index"
             class="w-full" 
             role="presentation"
           >
@@ -37,7 +23,7 @@
       </div>
       <div id="default-tab-content">
         <div
-          v-for="(item, index) in planosList" :key="index"
+          v-for="(item, index) in data" :key="index"
           :id="`${item.id}`" 
           :aria-labelledby="`${item.id}-tab`"
           role="tabpanel" 
@@ -84,72 +70,11 @@
 </template>
 
 <script setup>
-const planosList = [
-  {
-    title: 'Hidroginástica',
-    titleDrop: 'Hidroginástica',
-    id: 'hidro',
-    description: '<strong>Hidroginástica:</strong><br/>Esse plano está incluso: Blá, blá blá',
-    mensal: '200',
-    semestral: '170',
-    trimestral: '180'
-  },
-  {
-    title: 'Hidroginástica<br/>3ª idade',
-    titleDrop: 'Hidroginástica 3ª idade',
-    id: 'hidro3',
-    description: '<strong>Hidroginástica 3ª idade:</strong><br/>Esse plano está incluso: Blá, blá blá',
-    mensal: '190',
-    semestral: '160',
-    trimestral: '170'
-  },
-  {
-    title: 'Natação<br/>Basic',
-    titleDrop: 'Natação Basic',
-    id: 'natBasic',
-    description: '<strong>Natação Basic:</strong><br/>Esse plano está incluso: Blá, blá blá',
-    mensal: '200',
-    semestral: '170',
-    trimestral: '180'
-  },
-  {
-    title: 'Natação<br/>Plus',
-    titleDrop: 'Natação Plus',
-    id: 'natPlus',
-    description: '<strong>Natação Plus:</strong><br/>Esse plano está incluso: Blá, blá blá',
-    mensal: '220',
-    semestral: '190',
-    trimestral: '200'
-  },
-  {
-    title: 'Musculação<br/>Basic',
-    titleDrop: 'Musculação Basic',
-    id: 'muscBasic',
-    description: '<strong>Musculação Basic:</strong><br/>Esse plano está incluso: Blá, blá blá',
-    mensal: '100',
-    semestral: '80',
-    trimestral: '90'
-  },
-  {
-    title: 'Musculação<br/>Plus',
-    titleDrop: 'Musculação Plus',
-    id: 'muscPlus',
-    description: '<strong>Musculação Plus:</strong><br/>Esse plano está incluso: Blá, blá blá',
-    mensal: '210',
-    semestral: '180',
-    trimestral: '180'
-  },
-  {
-    title: 'Musculação<br/>Plus 3ª idade',
-    titleDrop: 'Musculação Plus 3ª idade',
-    id: 'muscPlus3',
-    description: '<strong>Musculação Plus 3ª idade:</strong><br/>Esse plano está incluso: Blá, blá blá',
-    mensal: '200',
-    semestral: '170',
-    trimestral: '180'
-  },
-]
 
+defineProps({
+  data: Array(Object),
+  
+})
 
 </script>
 
