@@ -73,6 +73,7 @@
 </template>
 
 <script setup>
+import { ref } from 'vue';
 const props = defineProps({
   data: Object,
 })
@@ -81,7 +82,6 @@ const openTab = ref(props.data.planos[0].id)
 
 function toggleTabs(value) {
   this.openTab = value 
-  console.log(this.openTab)
 }
 
 
