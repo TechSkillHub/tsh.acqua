@@ -40,14 +40,16 @@
               </div>
 
               <div class="card md:w-full w-4/5 mx-auto md:mx-0 rounded-xl text-center p-8 py-16 bg-gradient-to-b from-brand1 to-[#FFC9B6] md:scale-125 scale-110 flex flex-col justify-between md:order-1 relative">
-                <div class="gift text-gray-600 text-xl font-bold bg-white rounded-xl py-2 px-4 flex items-center justify-center w-fit absolute -top-8 md:-right-6 right-16 shadow-sm-light shadow-gray-700">
-                  <img src="/public/images/planos/gift.png" alt="" class="h-10 me-4">
-                  Um mês Grátis
+                <div class="absolute -top-8 w-full left-0">
+                  <div class="gift text-gray-600 text-xl font-bold bg-white rounded-xl py-2 px-4 flex items-center justify-center w-fit shadow-sm-light shadow-gray-700 mx-auto">
+                    <img src="/public/images/planos/gift.png" alt="" class="h-10 me-4">
+                    Um mês Grátis
+                  </div>
                 </div>
                 <h3 class="text-2xl font-bold uppercase tracking-wider">Semestral</h3>
                 <div class="price flex justify-center my-8">
                   <span class="text-4xl font-bold">R$</span>
-                  <span class="text-9xl font-bold leading-[0.75] text-white">{{ item.semestral }}</span>
+                  <span class="md:text-9xl text-8xl font-bold leading-[0.75] text-white">{{ item.semestral }}</span>
                   <span class="text-3xl mt-auto text-gray-800">/mês</span>
                 </div>
                 <a :href="data.linkWhats" target="_blank" class="uppercase bg-white text-brand1 py-2 px-8 rounded-xl w-fit mx-auto">Garantir minha vaga</a>

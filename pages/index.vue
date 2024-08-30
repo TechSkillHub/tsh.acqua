@@ -7,7 +7,7 @@
         <NuxtLink to="/mary-ward">
           <button class="rounded-xl bg-white text-brand1 py-6 uppercase w-80 mx-3 hover:bg-brand1 hover:text-white transition duration-300 ease-in-out">
             <span class="font-theme w-fit block mx-auto text-2xl">MARY WARD<br/>          
-              <span class="text-xs text-gray-600 capitalize font-sans text-right block">(Vila Califórnia)</span>
+              <span class="text-xs text-gray-600 capitalize font-sans text-right block">(Chácara  Califórnia)</span>
             </span>
           </button>
         </NuxtLink>
