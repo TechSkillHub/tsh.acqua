@@ -7,17 +7,21 @@
         <img src="@/assets/images/logo.webp" class="h-20" alt="Oficina Acqua Logo">
       </NuxtLink>
       <div class="flex md:order-1 space-x-3 md:space-x-0 rtl:space-x-reverse">
-          <button id="hamburger" data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-lg md:hidden hover:bg-transparent focus:outline-none focus:ring-1 focus:ring-gray-200" aria-controls="navbar-sticky" aria-expanded="false">
-            <span class="sr-only">Open main menu</span>
-            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
-            </svg>
+        <button
+          @click="clickMenu()"
+          id="hamburger" 
+          type="button" 
+          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-lg md:hidden hover:bg-transparent focus:outline-none focus:ring-1 focus:ring-gray-200" 
+        >
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+          </svg>
         </button>
       </div>
-      <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-2" id="navbar-sticky">
+      <div class="items-center justify-between w-full md:flex md:w-auto md:order-2 hidden" id="navbar-sticky">
         <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
           <li v-for="(item, index) in headers" :key="index">
-            <NuxtLink :to="{ hash: item.link }" class="block py-2 px-3 text-white rounded md:p-0 uppercase" @click="hideMenu()">
+            <NuxtLink :to="{ hash: item.link }" class="block py-2 px-3 text-white rounded md:p-0 uppercase" @click="clickMenu()">
               {{ item.title }}
             </NuxtLink>
           </li>          
@@ -30,9 +34,14 @@
 </template>
 
 <script setup>
-function hideMenu() {
-  let el = document.getElementById('hamburger')
-  el.click()
+function clickMenu() {
+  let el = document.getElementById('navbar-sticky')
+  let elClass = document.getElementById('navbar-sticky').classList.contains("hidden")
+  if (elClass) {
+    el.classList.remove('hidden')
+  } else {
+    el.classList.add('hidden')
+  }
 }
 
 const headers = [
