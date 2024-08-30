@@ -3,7 +3,7 @@
     <Academia id="academia" :data="page" />
     <Estrutura id="estrutura" :data="page" />
     <Modalidades id="modalidades" :data="page" />
-    <Planos id="planos" :data="page.planos" />
+    <Planos id="planos" :data="page" />
     <Horarios id="horarios" :data="page" />
     <Contato id="contato" :data="page" />
     <Footer :data="page" />

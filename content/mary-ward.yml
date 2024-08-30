@@ -280,7 +280,7 @@ planos: [
     title: 'Hidroginástica',
     titleDrop: 'Hidroginástica',
     id: 'hidro',
-    description: '<strong>Hidroginástica:</strong><br/>Esse plano está incluso: Blá, blá blá',
+    description: '<strong>Hidroginástica:</strong><br/>Esse plano está incluso: Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
     mensal: '200',
     semestral: '170',
     trimestral: '180'
@@ -289,7 +289,7 @@ planos: [
     title: 'Hidroginástica<br/>3ª idade',
     titleDrop: 'Hidroginástica 3ª idade',
     id: 'hidro3',
-    description: '<strong>Hidroginástica 3ª idade:</strong><br/>Esse plano está incluso: Blá, blá blá',
+    description: '<strong>Hidroginástica 3ª idade:</strong><br/>Esse plano está incluso: Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
     mensal: '190',
     semestral: '160',
     trimestral: '170'
@@ -298,7 +298,7 @@ planos: [
     title: 'Natação<br/>Basic',
     titleDrop: 'Natação Basic',
     id: 'natBasic',
-    description: '<strong>Natação Basic:</strong><br/>Esse plano está incluso: Blá, blá blá',
+    description: '<strong>Natação Basic:</strong><br/>Esse plano está incluso: Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
     mensal: '200',
     semestral: '170',
     trimestral: '180'
@@ -307,7 +307,7 @@ planos: [
     title: 'Natação<br/>Plus',
     titleDrop: 'Natação Plus',
     id: 'natPlus',
-    description: '<strong>Natação Plus:</strong><br/>Esse plano está incluso: Blá, blá blá',
+    description: '<strong>Natação Plus:</strong><br/>Esse plano está incluso: Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
     mensal: '220',
     semestral: '190',
     trimestral: '200'
@@ -316,7 +316,7 @@ planos: [
     title: 'Musculação<br/>Basic',
     titleDrop: 'Musculação Basic',
     id: 'muscBasic',
-    description: '<strong>Musculação Basic:</strong><br/>Esse plano está incluso: Blá, blá blá',
+    description: '<strong>Musculação Basic:</strong><br/>Esse plano está incluso: Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
     mensal: '100',
     semestral: '80',
     trimestral: '90'
@@ -325,7 +325,7 @@ planos: [
     title: 'Musculação<br/>Plus',
     titleDrop: 'Musculação Plus',
     id: 'muscPlus',
-    description: '<strong>Musculação Plus:</strong><br/>Esse plano está incluso: Blá, blá blá',
+    description: '<strong>Musculação Plus:</strong><br/>Esse plano está incluso: Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
     mensal: '210',
     semestral: '180',
     trimestral: '180'
@@ -334,7 +334,7 @@ planos: [
     title: 'Musculação<br/>Plus 3ª idade',
     titleDrop: 'Musculação Plus 3ª idade',
     id: 'muscPlus3',
-    description: '<strong>Musculação Plus 3ª idade:</strong><br/>Esse plano está incluso: Blá, blá blá',
+    description: '<strong>Musculação Plus 3ª idade:</strong><br/>Esse plano está incluso: Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
     mensal: '200',
     semestral: '170',
     trimestral: '180'

@@ -15,7 +15,7 @@
 
     </div>
     <div v-html="data.mapa"></div>
-    <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1828.5175026449626!2d-46.53742439196071!3d-23.567186228644367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5dc3d54337eb%3A0x725b6a015f22430a!2sR.%20Planalto%2C%20192%20-%20Vila%20Formosa%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2003364-010%2C%20Brasil!5e0!3m2!1spt-BR!2sus!4v1724876252661!5m2!1spt-BR!2sus" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+    
   </div>
 </template>
 
