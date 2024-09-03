@@ -1,44 +1,44 @@
-imageBanner: '/images/banner/banner-mary.webp'
+imageBanner: '/images/banner/banner-mary-ward.webp'
 
 estrutura: [
   {
-    largeURL: '/images/estrutura/mary-1.webp',
-    thumbnailURL: '/images/estrutura/mary-1_thumb.webp',
+    largeURL: '/images/estrutura/mary-ward-1.webp',
+    thumbnailURL: '/images/estrutura/mary-ward-1_thumb.webp',
     alt: 'Estrutura Unidade Mary Ward',
     width: 1280,
     height: 853,
   },
   {
-    largeURL: '/images/estrutura/mary-2.webp',
-    thumbnailURL: '/images/estrutura/mary-2_thumb.webp',
+    largeURL: '/images/estrutura/mary-ward-2.webp',
+    thumbnailURL: '/images/estrutura/mary-ward-2_thumb.webp',
     alt: 'Estrutura Unidade Mary Ward',
     width: 1280,
     height: 853,
   },
   {
-    largeURL: '/images/estrutura/mary-3.webp',
-    thumbnailURL: '/images/estrutura/mary-3_thumb.webp',
+    largeURL: '/images/estrutura/mary-ward-3.webp',
+    thumbnailURL: '/images/estrutura/mary-ward-3_thumb.webp',
     alt: 'Estrutura Unidade Mary Ward',
     width: 1280,
     height: 853,
   },
   {
-    largeURL: '/images/estrutura/mary-4.webp',
-    thumbnailURL: '/images/estrutura/mary-4_thumb.webp',
+    largeURL: '/images/estrutura/mary-ward-4.webp',
+    thumbnailURL: '/images/estrutura/mary-ward-4_thumb.webp',
     alt: 'Estrutura Unidade Mary Ward',
     width: 1280,
     height: 853,
   },
   {
-    largeURL: '/images/estrutura/mary-5.webp',
-    thumbnailURL: '/images/estrutura/mary-5_thumb.webp',
+    largeURL: '/images/estrutura/mary-ward-5.webp',
+    thumbnailURL: '/images/estrutura/mary-ward-5_thumb.webp',
     alt: 'Estrutura Unidade Mary Ward',
     width: 1280,
     height: 853,
   },
   {
-    largeURL: '/images/estrutura/mary-6.webp',
-    thumbnailURL: '/images/estrutura/mary-6_thumb.webp',
+    largeURL: '/images/estrutura/mary-ward-6.webp',
+    thumbnailURL: '/images/estrutura/mary-ward-6_thumb.webp',
     alt: 'Estrutura Unidade Mary Ward',
     width: 1280,
     height: 853,

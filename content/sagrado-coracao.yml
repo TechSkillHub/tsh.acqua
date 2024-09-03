@@ -1,44 +1,44 @@
-imageBanner: '/images/banner/banner-mary.webp'
+imageBanner: '/images/banner/banner-sagrado-coracao.webp'
 
 estrutura: [
   {
-    largeURL: '/images/estrutura/mary-1.webp',
-    thumbnailURL: '/images/estrutura/mary-1_thumb.webp',
+    largeURL: '/images/estrutura/sagrado-coracao-1.webp',
+    thumbnailURL: '/images/estrutura/sagrado-coracao-1_thumb.webp',
     alt: 'Estrutura Unidade Mary Ward',
     width: 1280,
     height: 853,
   },
   {
-    largeURL: '/images/estrutura/mary-2.webp',
-    thumbnailURL: '/images/estrutura/mary-2_thumb.webp',
+    largeURL: '/images/estrutura/sagrado-coracao-2.webp',
+    thumbnailURL: '/images/estrutura/sagrado-coracao-2_thumb.webp',
     alt: 'Estrutura Unidade Mary Ward',
     width: 1280,
     height: 853,
   },
   {
-    largeURL: '/images/estrutura/mary-3.webp',
-    thumbnailURL: '/images/estrutura/mary-3_thumb.webp',
+    largeURL: '/images/estrutura/sagrado-coracao-3.webp',
+    thumbnailURL: '/images/estrutura/sagrado-coracao-3_thumb.webp',
     alt: 'Estrutura Unidade Mary Ward',
     width: 1280,
     height: 853,
   },
   {
-    largeURL: '/images/estrutura/mary-4.webp',
-    thumbnailURL: '/images/estrutura/mary-4_thumb.webp',
+    largeURL: '/images/estrutura/sagrado-coracao-4.webp',
+    thumbnailURL: '/images/estrutura/sagrado-coracao-4_thumb.webp',
     alt: 'Estrutura Unidade Mary Ward',
     width: 1280,
     height: 853,
   },
   {
-    largeURL: '/images/estrutura/mary-5.webp',
-    thumbnailURL: '/images/estrutura/mary-5_thumb.webp',
+    largeURL: '/images/estrutura/sagrado-coracao-5.webp',
+    thumbnailURL: '/images/estrutura/sagrado-coracao-5_thumb.webp',
     alt: 'Estrutura Unidade Mary Ward',
     width: 1280,
     height: 853,
   },
   {
-    largeURL: '/images/estrutura/mary-6.webp',
-    thumbnailURL: '/images/estrutura/mary-6_thumb.webp',
+    largeURL: '/images/estrutura/sagrado-coracao-6.webp',
+    thumbnailURL: '/images/estrutura/sagrado-coracao-6_thumb.webp',
     alt: 'Estrutura Unidade Mary Ward',
     width: 1280,
     height: 853,
@@ -47,46 +47,16 @@ estrutura: [
 
 modalidades: [
   {
-    title: 'Pilates',
-    alt: 'Pilates',
-    description: 'Aula composta por exercícios do método pilates realizados no solo que proporcionam a reeducação postural e a melhoria da força, da flexibilidade e da consciência corporal integrando corpo e mente.',
-    icon: '/images/modalidades/pilates.png' 
+    title: 'Natação',
+    alt: 'Natação',
+    description: '',
+    icon: '/images/modalidades/natacao.png' 
   },
   {
-    title: 'Zumba',
-    alt: 'Zumba',
-    description: 'Fundada em 2001, a Zumba Fitness é uma marca global de estilo de vida, que combina fitness, entretenimento e cultura com uma empolgante sensação de dança-fitness!',
-    icon: '/images/modalidades/zumba.png' 
-  },
-  {
-    title: 'Funcional / HIIT',
-    alt: 'Funcional / HIIT',
-    description: 'É uma aula que tem como objetivo melhorar o condicionamento cardiovascular e a resistência muscular localizada. Provoca um alto gasto calórico. O treino é realizado em forma de circuito ao ritmo de uma trilha especialmente preparada para a aula. Tem como característica marcante a motivação.',
-    icon: '/images/modalidades/hiit.png' 
-  },
-  {
-    title: 'Localizada',
-    alt: 'Localizada',
-    description: 'Aula com o objetivo de fortalecimento muscular de regiões específicas, através de exercícios resistidos e localizados.',
-    icon: '/images/modalidades/localizada.png' 
-  },
-  {
-    title: 'Jump',
-    alt: 'Jump',
-    description: 'É uma aula divertidíssima, coreografada e realizada sobre um trampolim elástico, que proporciona um alto gasto calórico além do desenvolvimento do sistema cardiovascular e da coordenação geral.',
-    icon: '/images/modalidades/jump.png' 
-  },
-  {
-    title: 'GAP',
-    alt: 'GAP',
-    description: 'Aula com o objetivo de fortalecer abdômen, pernas e glúteos, através de exercícios resistidos e localizados.',
-    icon: '/images/modalidades/gap.png' 
-  },
-  {
-    title: 'Alongamento',
-    alt: 'Alongamento',
-    description: 'São exercícios voltados para o aumento da flexibilidade muscular, que promovem o estiramento das fibras musculares, fazendo com que elas aumentem o seu comprimento. O principal efeito dos alongamentos é o aumento da flexibilidade, que é a maior amplitude de movimento possível de uma determinada articulação.',
-    icon: '/images/modalidades/alongamento.png' 
+    title: 'Hidroginástica',
+    alt: 'Hidroginástica',
+    description: '',
+    icon: '/images/modalidades/hidro.png' 
   },
 ]
 

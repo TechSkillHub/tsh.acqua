@@ -1,7 +1,7 @@
 <template>
   <div class="py-12">
     <div class="max-w-screen-xl mx-auto">
-      <h1 class="text-brand1 text-3xl font-theme uppercase mb-8 text-center col-span-12">Horários</h1>
+      <h1 class="text-brand1 md:text-5xl text-3xl font-theme uppercase mb-8 text-center col-span-12">Horários</h1>
 
       <div ></div>
 

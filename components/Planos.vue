@@ -1,7 +1,7 @@
 <template>
   <div class="py-12 bg-[#E74F18] bg-opacity-15 pb-24">
     <div class="max-w-screen-xl mx-auto">
-      <h1 class="text-brand1 text-3xl font-theme uppercase mb-8 text-center col-span-12">Nossos Planos</h1>
+      <h1 class="text-brand1 md:text-5xl text-3xl font-theme uppercase mb-8 text-center col-span-12">Nossos Planos</h1>
 
       <div class="mb-4">
         <ul

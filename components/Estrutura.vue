@@ -1,6 +1,6 @@
 <template>
   <div class="py-12 px-8 md:px-0 max-w-screen-xl mx-auto">
-    <h1 class="text-brand1 text-5xl font-theme uppercase mb-8 text-center col-span-12">Estrutura</h1>
+    <h1 class="text-brand1 md:text-5xl text-3xl font-theme uppercase mb-8 text-center col-span-12">Estrutura</h1>
     
     <SimpleGallery galleryID="gallery" :images="data.estrutura" class="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-8" />
   </div>

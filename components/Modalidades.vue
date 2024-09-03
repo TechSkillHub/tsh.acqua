@@ -2,10 +2,10 @@
   <div class="py-12 max-w-screen-xl mx-auto">
     <div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8">
       <div class="p-8 flex justify-center items-start flex-col gap-4">
-        <h2 class="text-brand1 md:text-5xl text-4xl mx-auto">
+        <h2 class="text-brand1 md:text-5xl text-3xl mx-auto">
           Veja nossas
         </h2>
-        <h2 class="text-brand1 md:text-5xl text-4xl uppercase font-theme mx-auto">
+        <h2 class="text-brand1 md:text-5xl text-3xl uppercase font-theme mx-auto">
           Modalidades
         </h2>
       </div>
