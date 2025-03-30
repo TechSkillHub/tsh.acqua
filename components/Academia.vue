@@ -3,11 +3,7 @@
     <div class="grid grid-cols-12 gap-8 md:gap-1">
       <div class="md:col-span-5 col-span-10 col-start-2 mx-auto">
         <h1 class="text-brand1 md:text-5xl text-3xl font-theme uppercase mb-8">A Academia</h1>
-        <p class="text-justify">
-          A atenção e o profissionalismo dos professores, a qualidade e a tecnologia dos equipamentos e o atendimento aos nossos clientes, nos tornam uma academia respeitada pelos alunos e pelo mercado de fitness. Por isso, a nossa filosofia é inovar sempre e, assim, contamos com novas modalidades e com os modernos equipamentos. Se você estiver procurando um diferencial, venha correndo para a <strong>Oficina Academia</strong>.
-          <br/><br/>
-          Quando você começa a treinar na <strong>Oficina Academia</strong>, sente um "clima" diferente, graças à atitude de nossos professores e colaboradores, sempre próximos e disponíveis, prontos para ajudá-lo e orientá-lo na busca de seus objetivos. Aqui se treina para viver melhor!
-        </p>
+        <p class="text-justify" v-html="data.academia"></p>
         <a :href="data.linkWhats" target="_blank" class="rounded-lg bg-[#0CCB6B] italic text-white py-4 px-6 h-fit text-xl flex justify-between items-center w-fit mt-8">
           NÃO PERCA TEMPO,
           COMECE AGORA!

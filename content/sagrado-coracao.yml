@@ -1,5 +1,7 @@
 imageBanner: '/images/banner/banner-sagrado-coracao.webp'
 
+academia: 'A <strong>Oficina Academia Acqua</strong>, atua há mais de 20 anos no mercado fitness, sempre com profissionais qualificados para um melhor atendimento aos nossos clientes.<br/><br/>Temos em nosso espaço  aquático uma piscina aquecida, sempre na temperatura ideal, para a prática de natação e hidroginástica.<br/><br/>Quando você começa a treinar na <strong>Oficina Academia Acqua</strong>, sente um "clima" diferente, graças à atitude de nossos professores e colaboradores, sempre próximos e disponíveis, prontos para ajudá-lo e orientá-lo na busca de seus objetivos. Aqui se treina para viver melhor!'
+
 estrutura: [
   {
     largeURL: '/images/estrutura/sagrado-coracao-1.webp',
@@ -49,13 +51,13 @@ modalidades: [
   {
     title: 'Natação',
     alt: 'Natação',
-    description: '',
+    description: 'A natação é a prática de deslocamento na água por meio de movimentos corporais, principalmente com o uso dos braços e pernas. Os estilos de nados são divididos em: crawl, peito, costas e borboleta.',
     icon: '/images/modalidades/natacao.png' 
   },
   {
     title: 'Hidroginástica',
     alt: 'Hidroginástica',
-    description: '',
+    description: 'A hidroginástica é uma atividade física em que são combinados exercícios aeróbicos na piscina, o que proporciona diversos benefícios para a saúde, como perda de peso, melhora da circulação e fortalecimento dos músculos.',
     icon: '/images/modalidades/hidro.png' 
   },
 ]
@@ -177,37 +179,37 @@ planos: [
     title: 'Hidroginástica',
     titleDrop: 'Hidroginástica',
     id: 'hidro',
-    description: '<strong>Hidroginástica:</strong><br/>Esse plano está incluso: Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    mensal: '200',
-    semestral: '160',
-    trimestral: '170'
+    description: '<strong>Hidroginástica:</strong><br/>Esse plano está incluso: Hidroginástica 5x por semana - Horario Livre.',
+    mensal: '210',
+    trimestral: '180',
+    semestral: '170',
   },
   {
     title: 'Hidroginástica<br/>3ª idade',
     titleDrop: 'Hidroginástica 3ª idade',
     id: 'hidro3',
-    description: '<strong>Hidroginástica 3ª idade:</strong><br/>Esse plano está incluso: Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    mensal: '190',
-    semestral: '150',
-    trimestral: '160'
+    description: '<strong>Hidroginástica 3ª idade:</strong><br/>Esse plano está incluso: Hidroginástica 5x por semana - Horario Livre.',
+    mensal: '200',
+    trimestral: '170',
+    semestral: '160',
   },
   {
     title: 'Natação<br/>Basic',
     titleDrop: 'Natação Basic',
     id: 'natBasic',
-    description: '<strong>Natação Basic:</strong><br/>Esse plano está incluso: Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    mensal: '190',
-    semestral: '150',
-    trimestral: '160'
+    description: '<strong>Natação Basic:</strong><br/>Esse plano está incluso: Natação 2x por semana - Horários Fixos.',
+    mensal: '200',
+    trimestral: '170',
+    semestral: '160',
   },
   {
     title: 'Natação<br/>Plus',
     titleDrop: 'Natação Plus',
     id: 'natPlus',
-    description: '<strong>Natação Plus:</strong><br/>Esse plano está incluso: Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    mensal: '200',
-    semestral: '170',
-    trimestral: '180'
+    description: '<strong>Natação Plus:</strong><br/>Esse plano está incluso: Natação 3x por semana - Horários Fixos.',
+    mensal: '210',
+    trimestral: '190',
+    semestral: '180',
   },
 ]
 

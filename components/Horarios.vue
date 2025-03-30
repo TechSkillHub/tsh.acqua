@@ -24,22 +24,23 @@ defineProps({
 </script>
 
 <style lang="scss">
-
-::-webkit-scrollbar {
-  width: 2px;
-  height: 5px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey;
-  border-radius: 2px;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #f95b22;
-  border-radius: 2px;
+.scrollbar {
+  &::-webkit-scrollbar {
+    width: 2px;
+    height: 5px;
+  }
+  
+  /* Track */
+  &::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 2px;
+  }
+  
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    background: #f95b22;
+    border-radius: 2px;
+  }
 }
 table {
   thead, tbody {

@@ -74,25 +74,33 @@
   </div>
 </template>
 
-<script>
+<script setup>
+const props = defineProps(['data'])
 
-export default {
-  props: {
-    data: {
-      type: Object,
-    },
-  },
-  data() {
-    return {
-      openTab: this.data.planos[0].id
-    }
-  },
-  methods: {
-    toggleTabs(value) {
-      this.openTab = value 
-    }
-  }
+const openTab = ref(props.data.planos[0].id)
+console.log(openTab)
+
+function toggleTabs(value) {
+  openTab.value = value 
 }
+
+// export default {
+//   props: {
+//     data: {
+//       type: Object,
+//     },
+//   },
+//   data() {
+//     return {
+//       openTab: this.data.planos[0].id
+//     }
+//   },
+//   methods: {
+//     toggleTabs(value) {
+//       this.openTab = value 
+//     }
+//   }
+// }
 
 </script>
 

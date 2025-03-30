@@ -1,5 +1,7 @@
 imageBanner: '/images/banner/banner-mary-ward.webp'
 
+academia: 'A <strong>Oficina Academia Acqua</strong>, atua há mais de 20 anos no mercado fitness, sempre com profissionais qualificados para um melhor atendimento aos nossos clientes.<br/><br/>Nossa estrutura conta com um espaço fitness para aulas de musculação e ginástica, além do espaço aquático com piscina aquecida, para a realização das atividades de natação, hidroginástica e hidroterapia.<br/><br/>Quando você começa a treinar na <strong>Oficina Academia Acqua</strong>, sente um "clima" diferente, graças à atitude de nossos professores e colaboradores, sempre próximos e disponíveis, prontos para ajudá-lo e orientá-lo na busca de seus objetivos. Aqui se treina para viver melhor!'
+
 estrutura: [
   {
     largeURL: '/images/estrutura/mary-ward-1.webp',
@@ -47,6 +49,18 @@ estrutura: [
 
 modalidades: [
   {
+    title: 'Natação',
+    alt: 'Natação',
+    description: 'A natação é a prática de deslocamento na água por meio de movimentos corporais, principalmente com o uso dos braços e pernas. Os estilos de nados são divididos em: crawl, peito, costas e borboleta.',
+    icon: '/images/modalidades/natacao.png' 
+  },
+  {
+    title: 'Hidroginástica',
+    alt: 'Hidroginástica',
+    description: 'A hidroginástica é uma atividade física em que são combinados exercícios aeróbicos na piscina, o que proporciona diversos benefícios para a saúde, como perda de peso, melhora da circulação e fortalecimento dos músculos.',
+    icon: '/images/modalidades/hidro.png' 
+  },
+  {
     title: 'Pilates',
     alt: 'Pilates',
     description: 'Aula composta por exercícios do método pilates realizados no solo que proporcionam a reeducação postural e a melhoria da força, da flexibilidade e da consciência corporal integrando corpo e mente.',
@@ -70,12 +84,12 @@ modalidades: [
     description: 'Aula com o objetivo de fortalecimento muscular de regiões específicas, através de exercícios resistidos e localizados.',
     icon: '/images/modalidades/localizada.png' 
   },
-  {
-    title: 'Jump',
-    alt: 'Jump',
-    description: 'É uma aula divertidíssima, coreografada e realizada sobre um trampolim elástico, que proporciona um alto gasto calórico além do desenvolvimento do sistema cardiovascular e da coordenação geral.',
-    icon: '/images/modalidades/jump.png' 
-  },
+  # {
+  #   title: 'Jump',
+  #   alt: 'Jump',
+  #   description: 'É uma aula divertidíssima, coreografada e realizada sobre um trampolim elástico, que proporciona um alto gasto calórico além do desenvolvimento do sistema cardiovascular e da coordenação geral.',
+  #   icon: '/images/modalidades/jump.png' 
+  # },
   {
     title: 'GAP',
     alt: 'GAP',
@@ -280,64 +294,64 @@ planos: [
     title: 'Hidroginástica',
     titleDrop: 'Hidroginástica',
     id: 'hidro',
-    description: '<strong>Hidroginástica:</strong><br/>Esse plano está incluso: Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    mensal: '200',
-    semestral: '170',
-    trimestral: '180'
+    description: '<strong>Hidroginástica:</strong><br/>Esse plano está incluso: Hidroginástica 5x por semana - Horario Livre.',
+    mensal: '210',
+    trimestral: '190',
+    semestral: '180',
   },
   {
     title: 'Hidroginástica<br/>3ª idade',
     titleDrop: 'Hidroginástica 3ª idade',
     id: 'hidro3',
-    description: '<strong>Hidroginástica 3ª idade:</strong><br/>Esse plano está incluso: Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    mensal: '190',
-    semestral: '160',
-    trimestral: '170'
+    description: '<strong>Hidroginástica 3ª idade:</strong><br/>Esse plano está incluso: Hidroginástica 5x por semana - Horario Livre.',
+    mensal: '200',
+    trimestral: '180',
+    semestral: '170',
   },
   {
     title: 'Natação<br/>Basic',
     titleDrop: 'Natação Basic',
     id: 'natBasic',
-    description: '<strong>Natação Basic:</strong><br/>Esse plano está incluso: Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    mensal: '200',
-    semestral: '170',
-    trimestral: '180'
+    description: '<strong>Natação Basic:</strong><br/>Esse plano está incluso: Natação 2x por semana - Horários Fixos.',
+    mensal: '210',
+    trimestral: '190',
+    semestral: '180',
   },
   {
     title: 'Natação<br/>Plus',
     titleDrop: 'Natação Plus',
     id: 'natPlus',
-    description: '<strong>Natação Plus:</strong><br/>Esse plano está incluso: Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    mensal: '220',
-    semestral: '190',
-    trimestral: '200'
-  },
-  {
-    title: 'Musculação<br/>Basic',
-    titleDrop: 'Musculação Basic',
-    id: 'muscBasic',
-    description: '<strong>Musculação Basic:</strong><br/>Esse plano está incluso: Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    mensal: '100',
-    semestral: '80',
-    trimestral: '90'
+    description: '<strong>Natação Plus:</strong><br/>Esse plano está incluso: Natação 3x por semana - Horários Fixos.',
+    mensal: '230',
+    trimestral: '210',
+    semestral: '200',
   },
   {
     title: 'Musculação<br/>Plus',
     titleDrop: 'Musculação Plus',
     id: 'muscPlus',
-    description: '<strong>Musculação Plus:</strong><br/>Esse plano está incluso: Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    mensal: '210',
-    semestral: '180',
-    trimestral: '180'
+    description: '<strong>Musculação Plus:</strong><br/>Esse plano está incluso: Musculação 5x por semana + aulas de ginástica, pilates solo e zumba.',
+    mensal: '100',
+    trimestral: '90',
+    semestral: '80',
   },
   {
-    title: 'Musculação<br/>Plus 3ª idade',
-    titleDrop: 'Musculação Plus 3ª idade',
+    title: 'Acqua<br/>Total',
+    titleDrop: 'Acqua Total',
+    id: 'acquaTot',
+    description: '<strong>Acqua Total:</strong><br/>Esse plano está incluso: Natação 2x por semana OU hidroginástica todos os dias + musculação e aulas de ginástica.',
+    mensal: '220',
+    trimestral: '200',
+    semestral: '190',
+  },
+  {
+    title: 'Acqua Total<br/>3ª idade',
+    titleDrop: 'Acqua Total 3ª idade',
     id: 'muscPlus3',
-    description: '<strong>Musculação Plus 3ª idade:</strong><br/>Esse plano está incluso: Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    mensal: '200',
-    semestral: '170',
-    trimestral: '180'
+    description: '<strong>Acqua Total 3ª idade:</strong><br/>Esse plano está incluso: Hidroginástica + musculação, aulas de ginástica, pilates e zumba.',
+    mensal: '210',
+    trimestral: '190',
+    semestral: '180',
   },
 ]
 
@@ -346,5 +360,5 @@ mapa: |
 
 linkWhats: 'https://wa.me/5511933709572'
 
-telefone: '+55 11 2359-7312'
+telefone: '+55 11 2296-5964'
 whatsapp: '+55 11 93370-9572'
